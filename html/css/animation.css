@@ -1,0 +1,56 @@
+body {
+
+        background: linear-gradient(-45deg, #b6a7a3, #e98fb12c, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+.wrapper {
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+div > p {
+    text-shadow: 3px 6px 12px white;
+    text-align: center;
+    border-radius: 1em;
+    color:black;
+    width: 40%;
+    margin-inline-start: 30em ;
+}
+
+.container img {
+    object-fit: cover;
+}
+
+
+h1 {
+    text-align: center;
+    color: red;
+    border: 1em;
+}
+
+.text {
+    column-count: 3;
+    font-size: large;
+}
