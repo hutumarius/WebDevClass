@@ -1,0 +1,23 @@
+body .container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    overflow-x: hidden;
+}
+
+.carouselExampleIndicators {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+
+}
