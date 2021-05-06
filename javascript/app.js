@@ -23,7 +23,7 @@ let destiny = {
 
 let output1 = "My name is" + destiny.firstname + destiny.lastname;
 let output2 = "My adress is" + destiny.adress;
-let output3 = destiny.spouse + "is my spose";
+let output3 = destiny.spouse + "is my spouse";
 let output4 = "We have" + destiny.children;
 
 
