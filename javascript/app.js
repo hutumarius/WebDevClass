@@ -18,20 +18,23 @@ let destiny = {
     },
 
     children: ['Vlad', 'Eric'],
-    spouse: 'Delia',
+    spouse: 'Delia'
 };
 
-let output1 = "My name is" + destiny.firstname + destiny.lastname;
-let output2 = "My adress is" + destiny.adress;
-let output3 = destiny.spouse + "is my spouse";
-let output4 = "We have" + destiny.children;
+let output = `
+
+My name is ${destiny.firstname} ${destiny.lastname} and i am married with ${destiny.spouse}. 
+I am ${destiny.age} years old. 
+We have ${destiny.children.toString ()} and come one year ago to ${destiny.adress}.
+You can contact us ${destiny.phoneNumber}.
+
+`
+
+
+console.log (output)
 
 
 
-console.log(output1);
-console.log(output2);
-console.log(output3);
-console.log(output4);
 
 
 
