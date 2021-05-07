@@ -18,12 +18,12 @@ let destiny = {
     },
 
     children: ['Vlad', 'Eric'],
-    spouse: 'Delia'
+    spouse: 'Delia',
+
+    future:function(){
+        console.log('Hello')
+        console.log(`My name is ${destiny.firstname} ${destiny.lastname} and i am married with ${destiny.spouse}\nI am ${destiny.age} years old\n We have ${destiny.children.toString ()} and came one year ago to ${destiny.adress}\nYou can contact us ${destiny.phoneNumbers}`)
+    }
 };
 
-let output = `My name is ${destiny.firstname} ${destiny.lastname} and i am married with ${destiny.spouse}. 
-I am ${destiny.age} years old. 
-We have ${destiny.children.toString ()} and came one year ago to ${destiny.adress}.
-You can contact us ${destiny.phoneNumbers}`
-
-console.log(output)
+destiny.future ();
